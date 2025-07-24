@@ -1,2 +1,2 @@
-# Neuroleap
-A smart ChatGPT-based AI assistant built with React and OpenAI API.
+# SigmaGPT
+A MERN based ChatGPT replica implemented from scratch using OpenAI.
