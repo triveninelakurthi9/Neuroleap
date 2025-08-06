@@ -1,22 +1,23 @@
-# Neuroleap – Full-Stack AI Chat Assistant
+# Neuroleap – Full-Stack Conversational AI Web Application
 
-A full-stack ChatGPT-inspired AI chat application developed using the MERN stack and OpenAI API. Built as a hands-on project by following resources from Apna College.
+A MERN-based conversational chatbot inspired by ChatGPT, built using the OpenAI API. Developed as part of a full-stack learning initiative using resources from Apna College.
 
 ---
 
 ## 📌 Project Goal
 
-To create a smart, real-time AI chatbot platform that interacts like ChatGPT, enabling users to ask questions and receive intelligent responses in a user-friendly interface.
+To create an intelligent, responsive AI chatbot that can understand and generate human-like responses using OpenAI's language model, packaged within a dynamic and scalable web interface.
 
 ---
 
 ## 🚀 Key Features
 
-- 🤖 Chat interface with OpenAI integration
-- 🔐 Secure user authentication (JWT-based)
-- 📝 History and session management
-- 📱 Responsive and modern UI using Tailwind CSS
-- 🔧 Reusable React components with clean state handling
+- 🤖 Chat with real-time OpenAI responses
+- 🔐 JWT-based secure login & registration
+- 📜 Maintains session chat history
+- 🎨 Responsive UI built with Tailwind CSS
+- 📥 API integration for OpenAI GPT-3.5/GPT-4
+- ⚙️ Modular and scalable full-stack architecture
 
 ---
 
@@ -26,17 +27,77 @@ To create a smart, real-time AI chatbot platform that interacts like ChatGPT, en
 **Backend:** Node.js, Express.js  
 **Database:** MongoDB  
 **Authentication:** JSON Web Tokens (JWT)  
-**API Integration:** OpenAI API
+**AI Integration:** OpenAI API
 
 ---
 
 ## 💡 How I Developed It
 
-- Followed Apna College’s MERN stack learning path
-- Created a clean and responsive UI using Tailwind CSS
-- Integrated OpenAI API for dynamic text generation
-- Managed chat sessions using Express routes and MongoDB
-- Implemented secure login system with JWT
+- Followed Apna College’s MERN stack learning roadmap
+- Integrated OpenAI's language API for smart, contextual responses
+- Designed a clean chat UI and built reusable components in React
+- Implemented user authentication and role-based routing
+- Managed API calls securely with Axios and backend routing
+
+---
+
+## ⚙️ How to Run the Project Locally
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/neuroleap.git
+cd neuroleap
+```
+
+### 2. Install Dependencies
+
+#### Backend
+
+```bash
+cd server
+npm install
+```
+
+#### Frontend
+
+```bash
+cd ../client
+npm install
+```
+
+### 3. Set Up Environment Variables
+
+Create a `.env` file in both `/client` and `/server` folders.
+
+#### Example `.env` for Server
+
+```env
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+OPENAI_API_KEY=your_openai_api_key
+```
+
+### 4. Run the Project
+
+#### Backend
+
+```bash
+cd server
+npm start
+```
+
+#### Frontend
+
+```bash
+cd ../client
+npm start
+```
+
+### 5. Open in Browser
+
+Visit: [http://localhost:3000](http://localhost:3000)
 
 ---
 
