@@ -46,7 +46,7 @@ To create an intelligent, responsive AI chatbot that can understand and generate
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/neuroleap.git
+git clone https://github.com/triveninelakurthi9/neuroleap.git
 cd neuroleap
 ```
 
